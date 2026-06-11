@@ -16,16 +16,14 @@
 #### А. Запуск програми та візуальна форма Matisse
 Графічний інтерфейс, спроектований за допомогою візуального редактора. Елемент `JComboBox` успішно підтягнув імена клієнтів з файлу `test.dat`.
 
-> 📷 **Вставте скріншот форми одразу після запуску додатка:**
-> ![Форма Matisse при старті](images/01_matisse_start.png)
+> ![Форма Matisse при старті](https://github.com/ppc-ntu-khpi/gui-2-Yarik-chiinniilaa/blob/f7e01c5ed025822e0fedd264f6be091b331647b3/TUIdemo/src/Mybank/f1.png)
 
 ---
 
 #### Б. Відображення рахунків клієнта (Вимога на "4")
 Результат вибору клієнта зі списку та натискання кнопки **Show**. У текстовому полі відображено детальний перелік та баланс усіх рахунків.
 
-> 📷 **Вставте скріншот після обрання клієнта та натискання Show:**
-> ![Виведення усіх рахунків клієнта](images/02_matisse_show.png)
+> ![Виведення усіх рахунків клієнта](https://github.com/ppc-ntu-khpi/gui-2-Yarik-chiinniilaa/blob/f7e01c5ed025822e0fedd264f6be091b331647b3/TUIdemo/src/Mybank/f2.png)
 
 ---
 
@@ -33,7 +31,7 @@
 При натисканні кнопки **About** з'являється інформаційне вікно, реалізоване через статичний метод `JOptionPane.showMessageDialog`.
 
 > 📷 **Вставте скріншот модального вікна About:**
-> ![Модальне вікно About](images/03_matisse_about.png)
+> ![Модальне вікно About](https://github.com/ppc-ntu-khpi/gui-2-Yarik-chiinniilaa/blob/f7e01c5ed025822e0fedd264f6be091b331647b3/TUIdemo/src/Mybank/f3.png)
 
 ---
 
@@ -41,6 +39,6 @@
 Текстове вікно повністю заповнюється структурованою таблицею з усіма балансами банку після натискання кнопки **Report**.
 
 > 📷 **Вставте скріншот таблиці після натискання кнопки Report:**
-> ![Консольний звіт у формі](images/04_matisse_report.png)
+> ![Консольний звіт у формі](https://github.com/ppc-ntu-khpi/gui-2-Yarik-chiinniilaa/blob/f7e01c5ed025822e0fedd264f6be091b331647b3/TUIdemo/src/Mybank/f4.png)
 ---
 
