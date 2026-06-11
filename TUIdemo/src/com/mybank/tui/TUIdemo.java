@@ -115,8 +115,6 @@ public class TUIdemo extends TApplication {
                             sb.append("Savings\n");
                             sb.append("    Balance:  $")
                               .append(String.format("%.2f", sa.getBalance())).append("\n");
-                            // interest rate is a field, access via balance trick not available
-                            // but we can show what we have
                         } else if (acc instanceof CheckingAccount) {
                             sb.append("Checking\n");
                             sb.append("    Balance:  $")
@@ -153,7 +151,7 @@ public class TUIdemo extends TApplication {
                 String accType = (acc instanceof SavingsAccount) ? "Savings" : "Checking";
                 sb.append(String.format("%-4d %-15s %-12s %10.2f%n",
                     i, fullName, accType, acc.getBalance()));
-                fullName = "";  // only show name on first account row
+                fullName = "";
             }
         }
 
