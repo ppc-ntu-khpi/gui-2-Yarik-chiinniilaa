@@ -37,7 +37,6 @@ public class TUIdemo extends TApplication {
 
         addToolMenu();
 
-        // Custom 'File' menu
         TMenu fileMenu = addMenu("&File");
         fileMenu.addItem(CUST_INFO, "&Customer Info");
         fileMenu.addItem(CUST_REPORT, "&Customer Report");
